@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Atendimento</title>
+</head>
+<body>
+
+    <h1>Classificação de Atendimento</h1>
+
+    <label>Cor da pulseira:</label>
+    <select id="cor">
+        <option value="vermelha">Vermelha</option>
+        <option value="amarela">Amarela</option>
+        <option value="verde">Verde</option>
+    </select>
+
+    <br><br>
+
+    <label>Idade do paciente:</label>
+    <input type="number" id="idade">
+
+    <br><br>
+
+    <label>Gestante:</label>
+    <input type="checkbox" id="gestante">
+
+    <br><br>
+
+    <button onclick="classificarAtendimento()">Classificar</button>
+
+    <h3 id="resultado"></h3>
+
+    <script src="condicionais_joaoCarlos.js"></script>
+
+</body>
+</html>
